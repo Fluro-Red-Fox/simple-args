@@ -28,7 +28,7 @@ int Arg_GetInt(struct Arg_table *table, char *key);
 char *Arg_GetString(struct Arg_table *table, char *key);
 
 // create a new copy of a string.
-char *NewStringCopy(char *string)
+char *NewStringCopy(char *string);
 
 //
 
